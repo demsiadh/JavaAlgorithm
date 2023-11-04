@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="数据结构与算法学习1%">
+      <change afterPath="$PROJECT_DIR$/linkedList/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/popj/HeroNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle/SignleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestSignleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,17 +44,20 @@
     <option name="jreName" value="17" />
   </component>
   <component name="ProjectId" id="2XebwX6iZsy4rp2dqDxLyxkMcVV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/13684/Desktop/Project/JavaAlgorithm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -64,7 +84,7 @@
       <recent name="love.jiahao.binarySearch" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestSignleLinkedList.testDelete">
     <configuration name="TestDynamicArray.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="array" />
       <extension name="coverage">
@@ -81,8 +101,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSignleLinkedList.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.linkedList.signle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="love.jiahao.linkedList.signle" />
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.linkedList.signle.TestSignleLinkedList" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSignleLinkedList.testDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.linkedList.signle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="love.jiahao.linkedList.signle" />
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.linkedList.signle.TestSignleLinkedList" />
+      <option name="METHOD_NAME" value="testDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSignleLinkedList.testOrderDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.linkedList.signle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="love.jiahao.linkedList.signle" />
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.linkedList.signle.TestSignleLinkedList" />
+      <option name="METHOD_NAME" value="testOrderDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSignleLinkedList.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.linkedList.signle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="love.jiahao.linkedList.signle" />
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.linkedList.signle.TestSignleLinkedList" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSignleLinkedList.testDelete" />
+        <item itemvalue="JUnit.TestSignleLinkedList.testUpdate" />
+        <item itemvalue="JUnit.TestSignleLinkedList.testOrderDemo" />
+        <item itemvalue="JUnit.TestSignleLinkedList.testDemo" />
         <item itemvalue="JUnit.TestDynamicArray.test5" />
       </list>
     </recent_temporary>
@@ -96,7 +184,8 @@
       <option name="presentableId" value="Default" />
       <updated>1698992733805</updated>
       <workItem from="1698992734808" duration="4006000" />
-      <workItem from="1698996843043" duration="300000" />
+      <workItem from="1698996843043" duration="2535000" />
+      <workItem from="1699057999840" duration="4718000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -105,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698996534999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据结构与算法学习1%">
+      <created>1698997148451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698997148451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +219,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="数据结构与算法学习1%" />
     <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法学习1%" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestSignleLinkedList.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

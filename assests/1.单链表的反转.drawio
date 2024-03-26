@@ -1,0 +1,110 @@
+<mxfile host="Electron" modified="2023-11-16T13:01:57.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="_2uK_LfKW9XeTGkYKhQk" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="Ckb0gLseduIsrzPG92yB">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="540" width="780" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="780" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="780" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-1" target="7gE3a3Q-5FVAZSol9eiI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-1" value="head" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-2" target="7gE3a3Q-5FVAZSol9eiI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-2" value="2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-3" target="7gE3a3Q-5FVAZSol9eiI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-3" value="4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-4" value="6" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-5" value="初始链表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-9" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;思路：&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; 1. 定义一个新的头节点&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; 2. 从原链表中依次取出节点，并始终添加到新头节点的第一个节点&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; 3. 将原头节点的下一个节点指向新的头节点，保持链表地址不变&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-10" target="7gE3a3Q-5FVAZSol9eiI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-23" value="3.把自己的下一个节点&lt;br style=&quot;font-size: 14px;&quot;&gt;变为当前遍历节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="7gE3a3Q-5FVAZSol9eiI-22">
+          <mxGeometry x="0.2229" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-10" value="reverseHead" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="70" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-11" value="next保存下一个节点的信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-12" target="7gE3a3Q-5FVAZSol9eiI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-14" value="1.getNext" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="7gE3a3Q-5FVAZSol9eiI-13">
+          <mxGeometry x="0.0069" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-12" target="7gE3a3Q-5FVAZSol9eiI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-21" value="2.指向反转头节点的下一个节点&lt;br style=&quot;font-size: 14px;&quot;&gt;，也就是第一个节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="7gE3a3Q-5FVAZSol9eiI-20">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-12" value="2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="265" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="265" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-24" target="7gE3a3Q-5FVAZSol9eiI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-24" value="4.最后将当前循环节点变为刚才保存的下一个节点，完成遍历的效果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="475" y="450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7gE3a3Q-5FVAZSol9eiI-26" target="7gE3a3Q-5FVAZSol9eiI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-26" value="head" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-27" value="reverse.getNext" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="265" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-29" value="循环完后将头节点，指向新头节点的下一个节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-32" value="循环" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="705" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7gE3a3Q-5FVAZSol9eiI-34" value="最终反转成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="685" y="555" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

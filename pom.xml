@@ -13,6 +13,13 @@
         <module>binarySearch</module>
         <module>queue</module>
         <module>linkedList</module>
+        <module>recursion</module>
+        <module>stack</module>
+        <module>heap</module>
+        <module>tree</module>
+        <module>interview</module>
+        <module>hash</module>
+        <module>sort</module>
     </modules>
 
     <properties>
@@ -25,7 +32,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.5</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

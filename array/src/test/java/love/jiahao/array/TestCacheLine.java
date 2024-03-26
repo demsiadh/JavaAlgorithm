@@ -1,6 +1,5 @@
 package love.jiahao.array;
 
-import org.junit.rules.Stopwatch;
 
 public class TestCacheLine {
 

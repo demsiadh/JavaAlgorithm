@@ -2,6 +2,8 @@ package love.jiahao.linkedList.signle;
 
 import love.jiahao.linkedList.popj.HeroNode;
 
+import java.util.Stack;
+
 // 单链表
 // 无排序实现
 public class SignleLinkedList {
@@ -173,6 +175,135 @@ public class SignleLinkedList {
 
             // 后移temp
             temp = temp.getNext();
+        }
+    }
+
+    /**
+     * 获取链表的长度
+     * @return  链表长度
+     */
+    public int length() {
+        // 没有节点
+        if (head.getNext() == null) return 0;
+        HeroNode next = head.getNext();
+        int count = 0;
+        while (next != null) {
+            count++;
+            next = next.getNext();
+        }
+        return count;
+    }
+
+    /**
+     * 查找链表中倒数第k个节点
+     * 思路:
+     *  1. 获得该链表的总长度
+     *  2. 从第一个节点开始循环，一直找到第size-index个节点就是倒数第k个
+     * @param index 倒数第几个
+     * @return  节点信息
+     */
+    public HeroNode findLastIndexNode(int index) {
+        int size = length();
+        // 空链表
+        if (size == 0) return null;
+        // 校验index
+        if (index <= 0 || index > size) return null;
+
+        // 循环查找
+        // 因为第一个节点已经被拿出来
+        // 所以for循环不必加=了
+        HeroNode result = head.getNext();
+        for (int i = 0; i < size - index; i++) {
+            result = result.getNext();
+        }
+        return result;
+    }
+
+    /**
+     * 反转链表
+     * 思路：
+     *  1. 定义一个新的头节点
+     *  2. 从原链表中依次取出节点，并始终添加到新头节点的第一个节点
+     *  3. 将原头节点的下一个节点指向新的头节点，保持链表地址不变
+     * @return 反转后的链表
+     */
+    public void reverse() {
+        HeroNode cur = head.getNext();
+        if (cur == null) return;
+
+        // 1.创建一个反转用的头节点
+        HeroNode reverseHead = new HeroNode(0, "", "");
+        HeroNode next = null;
+        // 2.进行循环
+        while (cur != null) {
+            // 2.1将当前节点的下一个节点的位置保存起来
+            next = cur.getNext();
+
+            // 2.2将当前节点的指向变为反转头节点的下一个
+            cur.setNext(reverseHead.getNext());
+            // 2.3将反转头节点的下一个节点指向变为当前头节点
+            reverseHead.setNext(cur);
+
+            // 2.4将当前节点变为刚才保存的下一个节点，进行下一次循环
+            cur = next;
+        }
+        // 3.循环完毕后，把头节点的指向变为反转后的链表的第一个节点，也就是反转头节点的下一个
+        head.setNext(reverseHead.getNext());
+    }
+
+    /**
+     * 从尾到头打印单链表
+     * 思路：
+     *  1.利用单链表的反转，然后进行遍历打印,(但是这种做法会破坏原有的链表结构，反转两遍也太不优雅了)
+     *  2.利用栈先进后出的特性来进行反转打印
+     */
+    public void reversePrint() {
+        HeroNode cur = head.getNext();
+        if (cur == null) return;
+
+        Stack<HeroNode> stack = new Stack<>();
+        // 遍历原链表，入栈
+        while (cur != null) {
+            stack.push(cur);
+            cur = cur.getNext();
+        }
+
+        // 打印栈
+        while (!stack.empty()) {
+            // 出栈并打印
+            System.out.println(stack.pop());
+        }
+    }
+
+    /**
+     * 合并两个单链表
+     * 思路：
+     *  1.遍历要合并的链表，将值放入数组中，保存起来
+     *  2.遍历第二个链表，将对应的节点插入进去
+     */
+    public void merge(SignleLinkedList list) {
+        HeroNode listCur = list.head.getNext();
+        HeroNode[] arrList = new HeroNode[list.length()];
+        for (int i = 0; i < list.length(); i++) {
+            arrList[i] = listCur;
+            listCur = listCur.getNext();
+        }
+        int j = 0;
+        HeroNode cur = head.getNext();
+        HeroNode next = null;
+        while (true) {
+            if (cur.getNext() == null) {
+                cur.setNext(arrList[j]);
+                break;
+            }
+            next = cur.getNext();
+            HeroNode curList = arrList[j];
+            if (next.getNo() >= curList.getNo()) {
+                cur.setNext(curList);
+                curList.setNext(next);
+                j++;
+            }
+            cur = next;
         }
     }
 }

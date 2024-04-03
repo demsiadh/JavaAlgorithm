@@ -85,7 +85,9 @@ public class LC206ReserveLinkedList {
          * @return      反转后的头节点
          */
         public ListNode reverList4(ListNode head) {
-            if (head == null || head.next == null) return head;
+            if (head == null || head.next == null) {
+                return head;
+            }
             ListNode o2 = head.next;
             ListNode n1 = head;
             while (o2 != null) {

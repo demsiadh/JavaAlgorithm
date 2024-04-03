@@ -7,199 +7,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="单链表的增删改查">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assests/1.单链表的反转.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/MyHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/MyHashTable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC01TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC03LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC136SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC217ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC242IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC387FirstUniqChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC49GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC819MostCommonWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/src/test/java/love/jiahao/hash/TestMyHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/lc/LC160MedianFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/lc/LC160MedianFinder_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/lc/LC215FindKthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/heap/src/main/java/love/jiahao/heap/lc/LC703KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC121MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC122MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC12IntToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC134CanCompleteCircuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC135Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC13RomanToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC14LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC151ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC169MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC189Rotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC238ProductExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC26RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC274HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC27RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC380RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC42Trap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC45Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC55CanJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC58LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC68FullJustify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC6Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC80RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC88Merage2SortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/lC28StrStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/doublePointer/LC11MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/doublePointer/LC125IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/doublePointer/LC167TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/doublePointer/LC392IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC141HasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC19RemoveOneNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC203RemoveElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC206ReserveLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC21MergeTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC22DetectCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC234IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC23MergeKLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC82DeleteDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC83DeleteDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC876MiddleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/popj/Boy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/popj/PeopleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle/CircleSingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle2/CircularDoublyLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle2/DoublyLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle2/SinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle2/SinglyLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestCircularDoublyLInkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestDoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestDoublyLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestSinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestSinglyLinkedListSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/CircleArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/CircleArrayQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/CircleArrayQueue3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/CircleArrayQueue4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/LinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/block/BlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/block/BlockingQueue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/block/BlockingQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/block/TestThreadUnsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/deque/ArrayDeque1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/deque/ArrayDeque11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/deque/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/deque/LinkedListDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/leetcode/LC102LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/leetcode/LC103ZigzagLevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/leetcode/LC23MergeKLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/leetcode/LC641MyCircularDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/priority/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/priority/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/priority/PriorityQueue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/priority/PriorityQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/main/java/love/jiahao/queue/priority/PriorityQueue3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/CircleArrayQueue2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/CircleArrayQueue3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/CircleArrayQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/LinkedListQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/block/TestBlockingQueue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/deque/ArrayDeque1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/deque/LinkedListDequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/priority/TestPriorityQueue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/priority/TestPriorityQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/priority/TestPriorityQueue3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E03BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E04BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E05BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E06InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E07InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E08Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E09Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E10Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E11Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E12Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E13hanoiTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E14PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E15PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/E16PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/src/main/java/love/jiahao/recursion/ReserveStringPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/ChooseSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/E01InfixToSuffix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/LC150EvalRPN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/LC20IsValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/LC225QueueStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/LC232StackQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/LinkedListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/main/java/love/jiahao/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/test/java/love/jiahao/stack/ArrayStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/src/test/java/love/jiahao/stack/LinkedListStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/AVLTree/AVLTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/BSTree/BSTTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/BSTree/BSTTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/E01HouZhui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/TreeTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/bTree/BTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC1008BstFromPreorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC101IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC104MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC105BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC106BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC111MinDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC144MirrorTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC144PreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC145PostorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC235LowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC450DeleteNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC701InsertIntoBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC938RangeSumBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC94InorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/LC98IsValidBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/lc/lC700SearchBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/main/java/love/jiahao/tree/redBlack/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/test/java/love/jiahao/tree/bstree/TestBSTTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/test/java/love/jiahao/tree/bstree/TestBSTTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/test/java/love/jiahao/tree/btree/TestBTree1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="数据结构与算法练习">
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC46Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC47PermuteUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/doublePointer/LC15ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC01TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC128LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC202IsHappy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC205IsIsomorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC219ContainsNearbyDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC242IsAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC290WordPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC383CanConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC49GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC138CopyRandomList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC141HasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC21MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC2AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC92ReverseBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/slidingWindow/LC03LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/slidingWindow/LC209MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/slidingWindow/LC30FindSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/slidingWindow/LC438FindAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/stack/LC150EvalRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/stack/LC155MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/stack/LC20IsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/stack/LC71SimplifyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/BucketSortGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/CountingSortPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/MergeInsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/QuickSortHandlerDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/QuickSortHoare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/QuickSortLomuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/LC1122RelativeSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/LC1636FrequencySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/LC164MaximumGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/src/test/java/love/jiahao/array/TestCacheLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/array/src/test/java/love/jiahao/array/TestCacheLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle/SignleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/signle/SignleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestSignleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/test/java/love/jiahao/linkedList/signle/TestSignleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/TestArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/test/java/love/jiahao/queue/TestArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC206ReserveLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC206ReserveLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +101,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/notes/JavaDataStructure/代码/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/slwl/ResouceCode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -280,16 +130,16 @@
       <recent name="love.jiahao.array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="love.jiahao.sort" />
       <recent name="love.jiahao.hash" />
       <recent name="love.jiahao.tree.bstree" />
       <recent name="love.jiahao.tree.BSTree" />
       <recent name="love.jiahao.heap.lc" />
-      <recent name="love.jiahao.queue.block" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LC392IsSubsequence">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.HeapSort" />
+  <component name="RunManager" selected="应用程序.LC71SimplifyPath">
+    <configuration name="BucketSortGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.BucketSortGeneric" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -301,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.InsertSort" />
+    <configuration name="LC1636FrequencySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.lc.LC1636FrequencySort" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="love.jiahao.sort.*" />
+          <option name="PATTERN" value="love.jiahao.sort.lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,12 +164,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC125IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.interview150.doublePointer.LC125IsPalindrome" />
+    <configuration name="LC164MaximumGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.lc.LC164MaximumGap" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.sort.lc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC71SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.interview150.stack.LC71SimplifyPath" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="love.jiahao.interview150.doublePointer.*" />
+          <option name="PATTERN" value="love.jiahao.interview150.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,21 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC392IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.interview150.doublePointer.LC392IsSubsequence" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="love.jiahao.interview150.doublePointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.ShellSort" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.RadixSort" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -355,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.LC392IsSubsequence" />
-        <item itemvalue="应用程序.LC125IsPalindrome" />
-        <item itemvalue="应用程序.ShellSort" />
-        <item itemvalue="应用程序.InsertSort" />
-        <item itemvalue="应用程序.HeapSort" />
+        <item itemvalue="应用程序.LC71SimplifyPath" />
+        <item itemvalue="应用程序.LC164MaximumGap" />
+        <item itemvalue="应用程序.LC1636FrequencySort" />
+        <item itemvalue="应用程序.RadixSort" />
+        <item itemvalue="应用程序.BucketSortGeneric" />
       </list>
     </recent_temporary>
   </component>
@@ -460,6 +310,24 @@
       <workItem from="1711170988796" duration="628000" />
       <workItem from="1711259372972" duration="8907000" />
       <workItem from="1711339191795" duration="6093000" />
+      <workItem from="1711422616983" duration="9919000" />
+      <workItem from="1711462957168" duration="820000" />
+      <workItem from="1711510122889" duration="12174000" />
+      <workItem from="1711532383241" duration="938000" />
+      <workItem from="1711537842479" duration="8007000" />
+      <workItem from="1711595619794" duration="20769000" />
+      <workItem from="1711624118212" duration="3909000" />
+      <workItem from="1711636133570" duration="118000" />
+      <workItem from="1711681444785" duration="11428000" />
+      <workItem from="1711710976567" duration="4617000" />
+      <workItem from="1711721544880" duration="1202000" />
+      <workItem from="1711786350452" duration="716000" />
+      <workItem from="1711802646576" duration="874000" />
+      <workItem from="1711856865729" duration="186000" />
+      <workItem from="1711858076593" duration="10796000" />
+      <workItem from="1711955213512" duration="1133000" />
+      <workItem from="1711966220056" duration="1212000" />
+      <workItem from="1712120269204" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -482,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699063245244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="数据结构与算法练习">
+      <created>1711422672291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711422672291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +378,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="数据结构与算法学习1%" />
     <MESSAGE value="单链表的增删改查" />
-    <option name="LAST_COMMIT_MESSAGE" value="单链表的增删改查" />
+    <MESSAGE value="数据结构与算法练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构与算法练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,6 +458,36 @@
           <url>file://$PROJECT_DIR$/hash/src/main/java/love/jiahao/hash/lc/LC819MostCommonWord.java</url>
           <line>23</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/MergeSort.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/hashTable/LC202IsHappy.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/LC1636FrequencySort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/LC1636FrequencySort.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/LC164MaximumGap.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/stack/LC71SimplifyPath.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

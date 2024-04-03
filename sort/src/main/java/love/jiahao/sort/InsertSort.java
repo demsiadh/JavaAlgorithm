@@ -18,7 +18,7 @@ public class InsertSort {
     }
 
     // 插入排序 非递归
-    private static void insertSort(int[] nums) {
+    public static void insertSort(int[] nums) {
         int t;  // 每次需要排序的元素
         int i;  // 已排序区域的右边界
         for (int low = 1; low < nums.length; low++) {

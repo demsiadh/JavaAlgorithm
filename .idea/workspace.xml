@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣19题解答，删除链表的倒数第N个结点">
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC82DeleteDuplicates.java" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣82题解答，删除排序链表中的全部重复元素">
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC61RotateRight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,20 +97,7 @@
       <recent name="love.jiahao.heap.lc" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LC71SimplifyPath">
-    <configuration name="BucketSortGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.BucketSortGeneric" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="love.jiahao.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.LC61RotateRight">
     <configuration name="LC1636FrequencySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.lc.LC1636FrequencySort" />
       <module name="sort" />
@@ -130,6 +117,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="love.jiahao.sort.lc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC61RotateRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.interview150.linkList.LC61RotateRight" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.interview150.linkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LC61RotateRight" />
         <item itemvalue="应用程序.LC71SimplifyPath" />
         <item itemvalue="应用程序.LC164MaximumGap" />
         <item itemvalue="应用程序.LC1636FrequencySort" />
         <item itemvalue="应用程序.RadixSort" />
-        <item itemvalue="应用程序.BucketSortGeneric" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +292,9 @@
       <workItem from="1712145301111" duration="2425000" />
       <workItem from="1712154985388" duration="892000" />
       <workItem from="1712208737681" duration="3963000" />
+      <workItem from="1712231741837" duration="1608000" />
+      <workItem from="1712299138995" duration="786000" />
+      <workItem from="1712327423948" duration="2838000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -328,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712155532410</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="力扣82题解答，删除排序链表中的全部重复元素">
+      <created>1712231787531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712231787531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +361,8 @@
     <MESSAGE value="单链表的增删改查" />
     <MESSAGE value="数据结构与算法练习" />
     <MESSAGE value="力扣19题解答，删除链表的倒数第N个结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣19题解答，删除链表的倒数第N个结点" />
+    <MESSAGE value="力扣82题解答，删除排序链表中的全部重复元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣82题解答，删除排序链表中的全部重复元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,6 +471,11 @@
           <url>file://$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/stack/LC71SimplifyPath.java</url>
           <line>13</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC61RotateRight.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣82题解答，删除排序链表中的全部重复元素">
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC61RotateRight.java" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣61题解答旋转链表">
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC86Partition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://E:/Java/jdk-17.0.1/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.LC61RotateRight" />
+        <item itemvalue="应用程序.RadixSort" />
         <item itemvalue="应用程序.LC71SimplifyPath" />
+        <item itemvalue="应用程序.LC61RotateRight" />
         <item itemvalue="应用程序.LC164MaximumGap" />
         <item itemvalue="应用程序.LC1636FrequencySort" />
-        <item itemvalue="应用程序.RadixSort" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +297,10 @@
       <workItem from="1712208737681" duration="3963000" />
       <workItem from="1712231741837" duration="1608000" />
       <workItem from="1712299138995" duration="786000" />
-      <workItem from="1712327423948" duration="2838000" />
+      <workItem from="1712327423948" duration="3881000" />
+      <workItem from="1712365120821" duration="230000" />
+      <workItem from="1712405025130" duration="1414000" />
+      <workItem from="1712406460491" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -338,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712231787531</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="力扣61题解答旋转链表">
+      <created>1712330283270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712330283270</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +375,8 @@
     <MESSAGE value="数据结构与算法练习" />
     <MESSAGE value="力扣19题解答，删除链表的倒数第N个结点" />
     <MESSAGE value="力扣82题解答，删除排序链表中的全部重复元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣82题解答，删除排序链表中的全部重复元素" />
+    <MESSAGE value="力扣61题解答旋转链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣61题解答旋转链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

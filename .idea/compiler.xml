@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stack" />
+        <module name="figure" />
         <module name="array" />
         <module name="tree" />
         <module name="binarySearch" />

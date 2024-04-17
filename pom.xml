@@ -20,6 +20,7 @@
         <module>interview</module>
         <module>hash</module>
         <module>sort</module>
+        <module>figure</module>
     </modules>
 
     <properties>

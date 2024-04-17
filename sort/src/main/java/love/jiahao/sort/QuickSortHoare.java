@@ -13,7 +13,7 @@ import java.util.Random;
  */
 public class QuickSortHoare {
     public static void main(String[] args) {
-        int[] ints = {1, 2, 8, 5, 4, 3, 6, 7, 9};
+        int[] ints = {21, 88, 19, 45, 13, 25, 66, 33, 18};
         quickSort(ints);
         System.out.println(Arrays.toString(ints));
     }

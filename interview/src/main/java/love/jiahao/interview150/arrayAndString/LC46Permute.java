@@ -1,7 +1,6 @@
 package love.jiahao.interview150.arrayAndString;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,24 +18,25 @@ public class LC46Permute {
      */
     public List<List<Integer>> permute(int[] nums) {    // 96 40
         List<List<Integer>> result = new ArrayList<>();
-        doPermute(nums, new boolean[nums.length], new LinkedList<>(), result);
+        doPermute(result, new boolean[nums.length], nums, new LinkedList<>());
         return result;
     }
 
-    private void doPermute(int[] nums, boolean[] visited, LinkedList<Integer> stack, List<List<Integer>> result) {
+    private void doPermute(List<List<Integer>> result, boolean[] used, int[] nums, LinkedList<Integer> stack) {
         if (stack.size() == nums.length) {
             result.add(new ArrayList<>(stack));
             return;
         }
 
         for (int i = 0; i < nums.length; i++) {
-            if (!visited[i]) {
+            if (!used[i]) {
                 stack.push(nums[i]);
-                visited[i] = true;
-                doPermute(nums, visited, stack, result);
+                used[i] = true;
+                doPermute(result, used, nums, stack);
                 stack.poll();
-                visited[i] = false;
+                used[i] = false;
             }
         }
     }
+
 }

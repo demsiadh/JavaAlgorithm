@@ -7,25 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣86题解答分隔链表">
-      <change afterPath="$PROJECT_DIR$/figure/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/TopologicalSortDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC146LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/SkatingMaxScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/lc/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="图的基础">
+      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC46Permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC46Permute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/QuickSortHoare.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/QuickSortHoare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +104,7 @@
       <recent name="love.jiahao.heap.lc" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TopologicalSortDFS">
+  <component name="RunManager" selected="应用程序.Dijkstra">
     <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.BFS" />
       <module name="figure" />
@@ -146,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkatingMaxScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.sort.SkatingMaxScore" />
-      <module name="sort" />
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.Dijkstra" />
+      <module name="figure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="love.jiahao.sort.*" />
+          <option name="PATTERN" value="love.jiahao.figure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Dijkstra" />
         <item itemvalue="应用程序.TopologicalSortDFS" />
         <item itemvalue="应用程序.DFS" />
         <item itemvalue="应用程序.TopologicalSort" />
         <item itemvalue="应用程序.BFS" />
-        <item itemvalue="应用程序.SkatingMaxScore" />
       </list>
     </recent_temporary>
   </component>
@@ -334,6 +319,8 @@
       <workItem from="1713159403856" duration="12479000" />
       <workItem from="1713240780069" duration="654000" />
       <workItem from="1713242059436" duration="7780000" />
+      <workItem from="1713331673266" duration="742000" />
+      <workItem from="1715084828642" duration="3840000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -391,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712407118328</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="图的基础">
+      <created>1713331795730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713331795730</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +411,8 @@
     <MESSAGE value="力扣82题解答，删除排序链表中的全部重复元素" />
     <MESSAGE value="力扣61题解答旋转链表" />
     <MESSAGE value="力扣86题解答分隔链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣86题解答分隔链表" />
+    <MESSAGE value="图的基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="图的基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,11 +521,6 @@
           <url>file://$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/linkList/LC61RotateRight.java</url>
           <line>14</line>
           <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sort/src/main/java/love/jiahao/sort/SkatingMaxScore.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />

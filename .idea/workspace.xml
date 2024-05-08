@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="图的基础">
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Dijkstra.java" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="迪克斯特拉 单源最短路径算法">
+      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/DijkstraPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,27 +96,14 @@
       <recent name="love.jiahao.array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="love.jiahao.figure" />
       <recent name="love.jiahao.sort" />
       <recent name="love.jiahao.hash" />
       <recent name="love.jiahao.tree.bstree" />
       <recent name="love.jiahao.tree.BSTree" />
-      <recent name="love.jiahao.heap.lc" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Dijkstra">
-    <configuration name="BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.BFS" />
-      <module name="figure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="love.jiahao.figure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.DijkstraPlus">
     <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.DFS" />
       <module name="figure" />
@@ -133,6 +119,19 @@
     </configuration>
     <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.Dijkstra" />
+      <module name="figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.figure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.DijkstraPlus" />
       <module name="figure" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.DijkstraPlus" />
         <item itemvalue="应用程序.Dijkstra" />
         <item itemvalue="应用程序.TopologicalSortDFS" />
         <item itemvalue="应用程序.DFS" />
         <item itemvalue="应用程序.TopologicalSort" />
-        <item itemvalue="应用程序.BFS" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +319,8 @@
       <workItem from="1713240780069" duration="654000" />
       <workItem from="1713242059436" duration="7780000" />
       <workItem from="1713331673266" duration="742000" />
-      <workItem from="1715084828642" duration="3840000" />
+      <workItem from="1715084828642" duration="4217000" />
+      <workItem from="1715170870612" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -385,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713331795730</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="迪克斯特拉 单源最短路径算法">
+      <created>1715092368785</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715092368785</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +419,8 @@
     <MESSAGE value="力扣61题解答旋转链表" />
     <MESSAGE value="力扣86题解答分隔链表" />
     <MESSAGE value="图的基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="图的基础" />
+    <MESSAGE value="迪克斯特拉 单源最短路径算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="迪克斯特拉 单源最短路径算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

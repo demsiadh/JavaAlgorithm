@@ -79,4 +79,41 @@ public class Demo {
 
         return new ArrayList<>(List.of(v1, v2, v3, v4, v5, v6, v7));
     }
+
+
+    /*
+        v1--(2)-->v2--(1)-->v3--(1)-->v4
+          \------(-2)------/
+     */
+    public static List<Vertex> getVertex3() {
+        Vertex v1 = new Vertex("v1");
+        Vertex v2 = new Vertex("v2");
+        Vertex v3 = new Vertex("v3");
+        Vertex v4 = new Vertex("v4");
+        v1.edges = List.of(new Edge(v2, 2), new Edge(v3, 1));
+        v2.edges = List.of(new Edge(v3, -2));
+        v3.edges = List.of(new Edge(v4, 1));
+        v4.edges = List.of();
+
+        return new ArrayList<>(List.of(v1, v2, v3, v4));
+    }
+
+    /*
+        v1--(2)-->v2--(-4)-->v3--(1)-->v1
+          \---<--(1)------/
+          这里 v1 v2 v3就形成了一个负环，因为三者权重加起来是负数，而且是环状
+     */
+    public static List<Vertex> getVertex4() {
+        Vertex v1 = new Vertex("v1");
+        Vertex v2 = new Vertex("v2");
+        Vertex v3 = new Vertex("v3");
+        Vertex v4 = new Vertex("v4");
+        v1.edges = List.of(new Edge(v2, 2));
+        v2.edges = List.of(new Edge(v3, -4));
+        v3.edges = List.of(new Edge(v1, 1));
+        v4.edges = List.of();
+        return new ArrayList<>(List.of(v1, v2, v3, v4));
+    }
+
+
 }

@@ -115,5 +115,24 @@ public class Demo {
         return new ArrayList<>(List.of(v1, v2, v3, v4));
     }
 
+    /*
+            ---(4)->v1--(-2)-->
+           /                   \
+          v2-------(3)-------->v3
+           \                   /
+            <-(-1)-v4----(2)--<-
+     */
+    public static List<Vertex> getVertex5() {
+        Vertex v1 = new Vertex("v1");
+        Vertex v2 = new Vertex("v2");
+        Vertex v3 = new Vertex("v3");
+        Vertex v4 = new Vertex("v4");
+        v1.edges = List.of(new Edge(v3, -2));
+        v2.edges = List.of(new Edge(v3, 3), new Edge(v1, 4));
+        v3.edges = List.of(new Edge(v4, 2));
+        v4.edges = List.of(new Edge(v2, -1));
+        return new ArrayList<>(List.of(v1, v2, v3, v4));
+    }
+
 
 }

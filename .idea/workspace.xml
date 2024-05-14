@@ -7,10 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="迪克斯特拉 单源最短路径算法优化">
-      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/BellmanFord.java" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="贝尔曼最短距离算法">
+      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/FloydWarshall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/FloydWarshallPlus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/figure/src/main/java/love/jiahao/figure/Vertex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,22 +107,9 @@
       <recent name="love.jiahao.tree.BSTree" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.BellmanFord">
+  <component name="RunManager" selected="应用程序.FloydWarshallPlus">
     <configuration name="BellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.BellmanFord" />
-      <module name="figure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="love.jiahao.figure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.DFS" />
       <module name="figure" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +147,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSortDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.TopologicalSortDFS" />
+    <configuration name="FloydWarshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.FloydWarshall" />
+      <module name="figure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.figure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FloydWarshallPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.FloydWarshallPlus" />
       <module name="figure" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FloydWarshallPlus" />
+        <item itemvalue="应用程序.FloydWarshall" />
         <item itemvalue="应用程序.BellmanFord" />
         <item itemvalue="应用程序.DijkstraPlus" />
         <item itemvalue="应用程序.Dijkstra" />
-        <item itemvalue="应用程序.TopologicalSortDFS" />
-        <item itemvalue="应用程序.DFS" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +327,10 @@
       <workItem from="1715170870612" duration="651000" />
       <workItem from="1715171531624" duration="16000" />
       <workItem from="1715171557508" duration="134000" />
-      <workItem from="1715256953020" duration="2414000" />
+      <workItem from="1715256953020" duration="2717000" />
+      <workItem from="1715344868042" duration="254000" />
+      <workItem from="1715610374096" duration="1050000" />
+      <workItem from="1715692774432" duration="5141000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -404,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715171401487</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="贝尔曼最短距离算法">
+      <created>1715261453204</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715261453204</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +445,8 @@
     <MESSAGE value="图的基础" />
     <MESSAGE value="迪克斯特拉 单源最短路径算法" />
     <MESSAGE value="迪克斯特拉 单源最短路径算法优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="迪克斯特拉 单源最短路径算法优化" />
+    <MESSAGE value="贝尔曼最短距离算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="贝尔曼最短距离算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

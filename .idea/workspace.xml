@@ -8,8 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣104题二叉树最大深度">
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/LC100IsSameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/LC226InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/LC101IsSymmetric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -337,6 +336,10 @@
       <workItem from="1715825967858" duration="16000" />
       <workItem from="1715929134688" duration="621000" />
       <workItem from="1716896909126" duration="6429000" />
+      <workItem from="1716969261423" duration="224000" />
+      <workItem from="1716969505472" duration="1372000" />
+      <workItem from="1716973276191" duration="9420000" />
+      <workItem from="1717379000740" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>

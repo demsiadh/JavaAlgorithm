@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣101题判断二叉树是否对称">
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/LC105BuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/LC106BuildTree.java" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣105题和106题，根据遍历结果构建二叉树">
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/LC117Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/binaryTree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -341,7 +341,8 @@
       <workItem from="1716969505472" duration="1372000" />
       <workItem from="1716973276191" duration="9420000" />
       <workItem from="1717379000740" duration="2014000" />
-      <workItem from="1717405640823" duration="1949000" />
+      <workItem from="1717405640823" duration="2190000" />
+      <workItem from="1717725028123" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -443,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717380847008</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="力扣105题和106题，根据遍历结果构建二叉树">
+      <option name="closed" value="true" />
+      <created>1717466123776</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717466123776</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +484,8 @@
     <MESSAGE value="贝尔曼最短距离算法" />
     <MESSAGE value="力扣104题二叉树最大深度" />
     <MESSAGE value="力扣101题判断二叉树是否对称" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣101题判断二叉树是否对称" />
+    <MESSAGE value="力扣105题和106题，根据遍历结果构建二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣105题和106题，根据遍历结果构建二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

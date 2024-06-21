@@ -21,6 +21,7 @@
         <module>hash</module>
         <module>sort</module>
         <module>figure</module>
+        <module>everyDay</module>
     </modules>
 
     <properties>

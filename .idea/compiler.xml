@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="stack" />
         <module name="figure" />
-        <module name="array" />
         <module name="tree" />
         <module name="binarySearch" />
         <module name="sort" />
+        <module name="everyDay" />
+        <module name="array" />
         <module name="heap" />
         <module name="interview" />
         <module name="queue" />

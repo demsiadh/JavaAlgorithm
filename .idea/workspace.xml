@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣每日一题61">
-      <change afterPath="$PROJECT_DIR$/everyDay/src/main/java/love/jiahao/everyDay/LC724PivotIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣每日一题724">
+      <change afterPath="$PROJECT_DIR$/everyDay/src/main/java/love/jiahao/everyDay/LC258AddDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,37 +60,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.LC112HasPathSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LC129SumNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/slwl/ResouceCode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.33563218&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.常规&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LC112HasPathSum.executor": "Debug",
+    "Application.LC129SumNumbers.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Project/slwl/ResouceCode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33563218",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.LC258AddDigits.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="love.jiahao.figure" />
@@ -113,20 +113,7 @@
       <recent name="love.jiahao.tree.BSTree" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.DijkstraPlus">
-    <configuration name="DijkstraPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.DijkstraPlus" />
-      <module name="figure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="love.jiahao.figure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.LC258AddDigits">
     <configuration name="FloydWarshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.FloydWarshall" />
       <module name="figure" />
@@ -179,6 +166,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC258AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.everyDay.LC258AddDigits" />
+      <module name="everyDay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="love.jiahao.everyDay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.LC258AddDigits" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -349,7 +354,7 @@
       <workItem from="1718328787683" duration="6218000" />
       <workItem from="1718589786546" duration="1133000" />
       <workItem from="1718885335279" duration="15380000" />
-      <workItem from="1720408935390" duration="8368000" />
+      <workItem from="1720408935390" duration="11232000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -491,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718936818647</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="力扣每日一题724">
+      <option name="closed" value="true" />
+      <created>1720418006278</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720418006278</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +541,8 @@
     <MESSAGE value="力扣112和力扣114" />
     <MESSAGE value="力扣129题" />
     <MESSAGE value="力扣每日一题61" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣每日一题61" />
+    <MESSAGE value="力扣每日一题724" />
+    <option name="LAST_COMMIT_MESSAGE" value="力扣每日一题724" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -22,6 +22,7 @@
         <module>sort</module>
         <module>figure</module>
         <module>everyDay</module>
+        <module>hot100</module>
     </modules>
 
     <properties>

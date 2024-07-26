@@ -1,6 +1,5 @@
 package love.jiahao.heap.lc;
 
-import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**

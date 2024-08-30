@@ -1,6 +1,9 @@
 package love.jiahao.interview150.arrayAndString;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * <big>反转字符串中的单词</big>
@@ -13,6 +16,12 @@ public class LC151ReverseWords {
         System.out.println(reverseWords("the sky is blue"));
         System.out.println(reverseWords("  hello world   "));
         System.out.println(reverseWords("a good    example"));
+    }
+
+    private static void swap(String[] split, int i, int j) {
+        String temp = split[i];
+        split[i] = split[j];
+        split[j] = temp;
     }
 
     // 首先去除首尾空格，随后对数组进行遍历，维持一个变量作为每个单词的首位的索引

@@ -7,9 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="力扣258题">
-      <change afterPath="$PROJECT_DIR$/everyDay/src/main/java/love/jiahao/everyDay/LC2974NumberGame.java" afterDir="false" />
+    <list default="true" id="2c360cf0-f304-4000-8d3a-88e678b6fb9c" name="更改" comment="添加gitignore文件">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaAlgorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC1464.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC467.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC151ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC151ReverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC46Permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview/src/main/java/love/jiahao/interview150/arrayAndString/LC46Permute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC206ReserveLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList/src/main/java/love/jiahao/linkedList/LC206ReserveLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +48,6 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="E:/export/maven" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="E:\export\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -59,44 +69,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.LC112HasPathSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LC129SumNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Project/slwl/ResouceCode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.33563218&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.LC23MergeKLists.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.LC258AddDigits.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.LC112HasPathSum.executor": "Debug",
+    "Application.LC129SumNumbers.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/13684/Desktop/Code/JavaAlgorithm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.33563218",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.LC23MergeKLists.executor": "Run",
+    "应用程序.LC258AddDigits.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="love.jiahao.figure" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\13684\Desktop\Code\JavaAlgorithm" />
       <recent name="D:\13684\Desktop\Project\JavaAlgorithm\queue\src\main\java\love\jiahao\queue" />
       <recent name="D:\13684\Desktop\Project\JavaAlgorithm\array\src\main\java\love\jiahao\array" />
     </key>
@@ -113,13 +124,13 @@
       <recent name="love.jiahao.tree.BSTree" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LC23MergeKLists">
-    <configuration name="FloydWarshallPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="love.jiahao.figure.FloydWarshallPlus" />
-      <module name="figure" />
+  <component name="RunManager" selected="应用程序.LC105BuildTree">
+    <configuration name="LC105BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="love.jiahao.tree.lc.LC105BuildTree" />
+      <module name="tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="love.jiahao.figure.*" />
+          <option name="PATTERN" value="love.jiahao.tree.lc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,6 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LC105BuildTree" />
         <item itemvalue="应用程序.LC23MergeKLists" />
         <item itemvalue="应用程序.LC258AddDigits" />
       </list>
@@ -358,6 +370,14 @@
       <workItem from="1720408935390" duration="13433000" />
       <workItem from="1721377398818" duration="3453000" />
       <workItem from="1721610463979" duration="2177000" />
+      <workItem from="1723212088641" duration="103000" />
+      <workItem from="1723212266670" duration="248000" />
+      <workItem from="1724292178279" duration="1314000" />
+      <workItem from="1724391223251" duration="942000" />
+      <workItem from="1724420318726" duration="1265000" />
+      <workItem from="1724671898931" duration="39000" />
+      <workItem from="1724996305688" duration="171000" />
+      <workItem from="1724996482927" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构与算法学习1%">
       <created>1698996534999</created>
@@ -515,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720420800776</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="添加gitignore文件">
+      <created>1724996559367</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724996559367</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +581,8 @@
     <MESSAGE value="力扣每日一题61" />
     <MESSAGE value="力扣每日一题724" />
     <MESSAGE value="力扣258题" />
-    <option name="LAST_COMMIT_MESSAGE" value="力扣258题" />
+    <MESSAGE value="添加gitignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加gitignore文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

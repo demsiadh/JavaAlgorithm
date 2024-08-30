@@ -12,6 +12,7 @@
         <module name="binarySearch" />
         <module name="sort" />
         <module name="everyDay" />
+        <module name="hot100" />
         <module name="array" />
         <module name="heap" />
         <module name="interview" />

@@ -29,11 +29,14 @@ public class LC46Permute {
         }
 
         for (int i = 0; i < nums.length; i++) {
+            if (i > 0 && nums[i] == nums[i -1] && !used[i -1]) {
+                continue;
+            }
             if (!used[i]) {
                 stack.push(nums[i]);
                 used[i] = true;
                 doPermute(result, used, nums, stack);
-                stack.poll();
+                stack.pop();
                 used[i] = false;
             }
         }
